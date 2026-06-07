@@ -218,6 +218,21 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved with observation. Keep an eye on loot balance and large structure density.
 
+#### 2026-06-07 - Phase 5 experimental BetterX + Quark/Supplementaries
+
+- Mods tested: BetterNether, BetterEnd, Soulful Nether, Quark, Supplementaries and dependencies.
+- Server started correctly.
+- Client required mod/config synchronization for BCLib and BetterNether.
+- One client-side crash happened after restarting the game, but the second launch allowed joining successfully.
+- No server crash was observed.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS stayed around 19.04 and 15-minute TPS around 19.45.
+- Last 10-second sample was stable: 1.0 ms median, 1.8 ms P95 and 15.7 ms max.
+- 1-minute sample showed 5.6 ms median, 32.5 ms P95 and 637.4 ms max.
+- The high spike is considered punctual, likely caused by dimension/worldgen loading.
+- Server process CPU stayed low.
+- Decision: Approved with client-side warning. Needs one more clean client restart/join test before final approval.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.

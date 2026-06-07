@@ -113,3 +113,18 @@
 | Mod | Side | Purpose | Status |
 |---|---|---|---|
 | When Dungeons Arise | Server / Client | Adds large dungeon structures for exploration, danger and adventure progression | Added |
+
+## Phase 5 Experimental - BetterX + Vanilla Plus
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Soulful Nether | Server / Client | Adds extra Nether biomes and Nether atmosphere | Added - Warning |
+| BetterNether | Server / Client | Adds Nether biomes, blocks, mobs, structures and vertical worldgen features | Added - Warning |
+| BetterEnd | Server / Client | Adds End biomes, blocks, mobs, resources, structures and custom End generation | Added - Warning |
+| BCLib | Server / Client | Library required by BetterNether and BetterEnd | Added - Warning |
+| WunderLib | Server / Client | Library required by BetterNether/BetterEnd ecosystem | Added - Warning |
+| Elysium API | Server / Client | Dependency used by Soulful Nether | Added - Warning |
+| Quark | Server / Client | Vanilla+ gameplay, blocks, decoration and quality-of-life features | Added - Warning |
+| Zeta | Server / Client | Library required by Quark | Added - Warning |
+| Supplementaries | Server / Client | Vanilla+ decoration and functional ambient blocks | Added - Warning |
+| Moonlight Library | Server / Client | Library required by Supplementaries | Added - Warning |
