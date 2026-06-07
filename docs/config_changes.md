@@ -38,4 +38,4 @@ Simulation distance may be reduced to 5 or 4 if TPS drops with multiple players.
 ### Server identity
 
 - `max-players=10`
-- `motd=§b§l§k|§b§l TecMC 1.1 §k|`
+- `motd=§b§l§k|§b§l TecMC 1.0 §k|`

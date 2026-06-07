@@ -65,3 +65,15 @@
 | FTB Quests | Server / Client | Main quest system for TecMC progression, chapters and rewards | Added |
 | Easy NPC | Server / Client | Custom NPCs for lore, guides, traders and contracts | Added |
 | Patchouli | Server / Client | Custom in-game books for lore, guides and manuals | Added |
+
+## Phase 4A - Lightweight Engineering
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Create | Server / Client | Lightweight mechanical engineering, realism, contraptions and functional decoration | Added |
+
+## Phase 4B - Create Decoration
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Create Deco | Server / Client | Industrial and steampunk decoration for Create builds | Added |
