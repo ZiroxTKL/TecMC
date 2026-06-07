@@ -1,0 +1,88 @@
+# Changelog
+
+This file tracks the main development phases of TecMC.
+
+## Current status
+
+TecMC is currently in **Phase 4B completed**.
+
+The server has a clean Forge base, performance optimization, QoL tools, multiplayer progression utilities, quests, NPC/lore systems, and lightweight Create support.
+
+The official world should **not** be created yet. Phase 5 must be tested first using a separate test world.
+
+---
+
+## Phase history
+
+| Version | Phase | Main change | Status |
+|---|---|---|---|
+| 0.1 | Phase 0 | Clean Forge 1.20.1 server base. Fixed occupied port 25565 issue. | Approved |
+| 0.2 | Phase 1A | Added base performance tools: spark, Chunky, ModernFix, FerriteCore. | Approved |
+| 0.3 | Phase 1B | Added entity and logic optimization: Canary, AI Improvements, Mobtimizations. | Approved |
+| 0.4 | Phase 1C | Added extra server performance utilities: FastSuite, Clumps, dependencies. | Approved |
+| 0.5 | Phase 1D | Added client FPS optimization: Embeddium, ImmediatelyFast, Entity Culling. | Approved |
+| 0.6 | Phase 1E | Added Chloride as Embeddium addon. | Approved |
+| 0.7 | Phase 2A | Added client QoL base: JEI, Jade, AppleSkin, Controlling, Mouse Tweaks, Inventory Profiles Next. | Approved |
+| 0.8 | Phase 2B | Added multiplayer/progression QoL: Sophisticated Backpacks, Corail Tombstone, SecurityCraft. | Approved |
+| 0.9 | Phase 3 | Added quests, NPCs and lore base: FTB Quests, Easy NPC, Patchouli. | Approved |
+| 1.0 | Phase 4A | Added Create as lightweight engineering system. | Approved |
+| 1.1 | Phase 4B | Added Create Deco for industrial/steampunk decoration. | Approved |
+| 1.2 | Phase 5 | Worldgen and structures. | Pending |
+
+---
+
+## Decision log
+
+### Approved decisions
+
+- TecMC is a custom modpack/server, not a modified BetterMC install.
+- The project focuses on RPG, adventure, quests, NPCs, lore, bosses, dimensions and a beautiful world.
+- Create is allowed only as lightweight engineering, not as the main focus of the server.
+- The Nether starts disabled and will be unlocked later through progression/lore.
+- Lootr was rejected to keep classic competitive loot.
+- The official world must wait until Phase 5 is tested.
+
+### Pending decisions
+
+- First YUNG structure block.
+- Biome mod choice: Regions Unexplored or Biomes O' Plenty.
+- Towns and Towers.
+- When Dungeons Arise.
+- Waystones.
+- Blue Skies.
+- Create Steam 'n' Rails.
+
+---
+
+## Rules for future changelog entries
+
+Each new phase should document:
+
+- Mods added.
+- Mods removed.
+- Config changes.
+- Test result.
+- Performance observations.
+- Final decision: approved, rejected or pending.
+
+Recommended format:
+
+```md
+## Version X.X - Phase name
+
+### Added
+- Mod name: reason.
+
+### Changed
+- Config or design change.
+
+### Removed
+- Mod name: reason.
+
+### Tested
+- Test world result.
+- Logs result.
+- TPS/MSPT result.
+
+### Decision
+Approved / Rejected / Pending.
