@@ -161,6 +161,19 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved as initial Phase 5A YUNG base test.
 
+#### 2026-06-07 - Phase 5B YUNG extra structures
+
+- Mods tested: YUNG's Better Desert Temples, YUNG's Better Jungle Temples and YUNG's Better Ocean Monuments.
+- Situation: Phase 5 test world after adding extra vanilla structure improvements.
+- TPS stayed at 20.0 in the short-term readings.
+- 5-minute TPS stayed around 19.71.
+- Last 10-second sample was very stable: 2.2 ms median, 3.0 ms P95 and 4.8 ms max.
+- 1-minute P95 reached 55.1 ms and peak MSPT reached 269.5 ms.
+- The spike is considered punctual, likely caused by chunk/structure generation.
+- Server process CPU was around 3% in the final short-term reading.
+- RAM usage was not measured.
+- Decision: Approved as Phase 5B YUNG extra structures test.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.
