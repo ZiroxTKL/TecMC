@@ -57,3 +57,11 @@
 | Sophisticated Core | Server / Client | Dependency required by Sophisticated Backpacks | Added |
 | Corail Tombstone | Server / Client | Grave system, death recovery and fantasy survival mechanics | Added |
 | SecurityCraft | Server / Client | Base protection, reinforced blocks and security tools | Added |
+
+## Phase 3 - Quests, NPCs and Lore Base
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| FTB Quests | Server / Client | Main quest system for TecMC progression, chapters and rewards | Added |
+| Easy NPC | Server / Client | Custom NPCs for lore, guides, traders and contracts | Added |
+| Patchouli | Server / Client | Custom in-game books for lore, guides and manuals | Added |
