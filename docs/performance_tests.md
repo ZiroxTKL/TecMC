@@ -174,6 +174,20 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved as Phase 5B YUNG extra structures test.
 
+#### 2026-06-07 - Phase 5C Towns and Towers
+
+- Mods tested: Towns and Towers.
+- Situation: Phase 5 test world with additional settlement/tower structures.
+- Short-term TPS stayed stable around 20.0.
+- 1-minute TPS dropped to around 19.14 during recent world/structure generation.
+- 5-minute TPS stayed around 19.47.
+- Last 10-second sample: 8.3 ms median, 17.5 ms P95 and 51.7 ms max.
+- 1-minute sample: 15.0 ms median, 40.4 ms P95 and 144.8 ms max.
+- The spike is considered acceptable during structure/world generation.
+- Server process CPU was around 3% in the final short-term reading.
+- RAM usage was not measured.
+- Decision: Approved with observation. The mod is heavier than previous YUNG blocks but remains playable and stable.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.

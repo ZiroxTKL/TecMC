@@ -94,3 +94,9 @@
 | YUNG's Better Desert Temples | Server / Client | Improves desert temples with larger structure layouts and better exploration | Added |
 | YUNG's Better Jungle Temples | Server / Client | Improves jungle temples with better design and exploration value | Added |
 | YUNG's Better Ocean Monuments | Server / Client | Improves ocean monuments and makes ocean exploration more rewarding | Added |
+
+## Phase 5C - Towns and Towers
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Towns and Towers | Server / Client | Adds improved villages, towers and settlement structures for exploration and world variety | Added |
