@@ -23,6 +23,8 @@ Every mod must answer at least one of these:
 - Does it add ambience?
 - Does it add necessary QoL?
 - Does it improve performance?
+- Does it break balance or progression?
+- Does it increase technical, compatibility or worldgen risk?
 
 ## Project rules
 
