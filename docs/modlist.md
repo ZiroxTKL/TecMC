@@ -31,3 +31,9 @@
 | Embeddium | Client | Rendering/FPS optimization | Added |
 | ImmediatelyFast | Client | UI/rendering optimization | Added |
 | Entity Culling | Client | Avoids rendering hidden entities/block entities | Added |
+
+## Phase 1E - Embeddium Addon
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Chloride | Client | Additional Embeddium/Sodium visual, quality and performance options | Added |
