@@ -100,3 +100,10 @@
 | Mod | Side | Purpose | Status |
 |---|---|---|---|
 | Towns and Towers | Server / Client | Adds improved villages, towers and settlement structures for exploration and world variety | Added |
+
+## Phase 5D - Nether and End Structures
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| YUNG's Better Nether Fortresses | Server / Client | Improves Nether fortresses for better Nether exploration and progression | Added |
+| YUNG's Better End Island | Server / Client | Improves the main End island and dragon fight environment | Added |

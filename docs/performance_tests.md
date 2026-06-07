@@ -188,6 +188,21 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved with observation. The mod is heavier than previous YUNG blocks but remains playable and stable.
 
+#### 2026-06-07 - Phase 5D Nether and End structures
+
+- Mods tested: YUNG's Better Nether Fortresses and YUNG's Better End Island.
+- Situation: Phase 5 test world with temporary Nether access enabled.
+- Tested Nether/End-related structure generation and End entry behavior.
+- Final short-term TPS stayed stable around 19.98-20.0.
+- 5-minute TPS stayed around 19.5.
+- Final 10-second sample: 4.0 ms median, 15.9 ms P95 and 226.9 ms max.
+- Final 1-minute sample: 3.9 ms median, 7.3 ms P95 and 226.9 ms max.
+- Server showed two "Can't keep up" warnings around dimension/structure generation and End initialization.
+- The warnings are considered acceptable because the test included locate commands, teleporting, dimension loading, End generation and initial dragon fight setup.
+- Server process CPU stayed low in the final reading.
+- RAM usage was not measured.
+- Decision: Approved with observation. Stable after generation, but dimension entry can create temporary spikes.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.
