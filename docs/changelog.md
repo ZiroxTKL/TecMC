@@ -74,6 +74,35 @@ Each new phase should document:
 - Started the restored server successfully.
 - Confirmed that the backup can be used as recovery point.
 
+## Version 1.2 - Phase 5 worldgen expansion
+
+### Added
+
+- YUNG structure mods.
+- Towns and Towers.
+- When Dungeons Arise.
+- Biomes O' Plenty and dependencies.
+- BetterNether and BetterEnd.
+- Soulful Nether.
+- Quark and Supplementaries.
+
+### Fixed
+
+- Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
+
+### Tested
+
+- Server starts correctly.
+- Client enters correctly after mod/config synchronization.
+- Spark TPS recovered to 20.0 during short-term readings.
+- No reproducible crash after retry.
+
+### Decision
+
+Approved.
+
+Phase 5 worldgen and vanilla plus expansion is stable enough to continue testing.
+
 ### Decision
 
 Approved.
