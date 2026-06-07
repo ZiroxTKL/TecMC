@@ -123,6 +123,28 @@ Do not add many worldgen mods at the same time.
 
 ---
 
+## Recorded tests
+
+| Date | Phase | Test | Players | TPS | MSPT summary | Result |
+|---|---|---|---:|---|---|---|
+| 2026-06-07 | Phase 4B | Baseline after startup / player online | 1 | 19.98-20.0 | Median ~2.3 ms, P95 ~26.8 ms, peak 630.8 ms | Approved |
+
+### Test notes
+
+#### 2026-06-07 - Phase 4B baseline
+
+- Mods tested: Current stable stack.
+- Situation: Server after startup with one player online.
+- TPS stayed stable between 19.98 and 20.0.
+- Median MSPT was around 2.3 ms in the 1-minute window.
+- P95 MSPT was around 26.8 ms in the 1-minute window.
+- Peak MSPT reached 630.8 ms once.
+- The peak is considered punctual, likely caused by startup, login or chunk loading.
+- Last 10-second sample normalized to 6.4 ms median, 11.7 ms P95 and 33.3 ms max.
+- Server process CPU was around 13% in the final reading.
+- RAM usage was not measured.
+- Decision: Approved as Phase 4B baseline before Phase 5 testing.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.
