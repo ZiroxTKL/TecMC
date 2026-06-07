@@ -65,6 +65,21 @@ Each new phase should document:
 - Performance observations.
 - Final decision: approved, rejected or pending.
 
+## Version 1.1.1 - Phase 4B backup validation
+
+### Validated
+
+- Created a full Phase 4B backup before Phase 5 testing.
+- Restored the backup in a separate test folder.
+- Started the restored server successfully.
+- Confirmed that the backup can be used as recovery point.
+
+### Decision
+
+Approved.
+
+Phase 4B now has a valid backup and restoration test. The project can move safely into Phase 5 test-world preparation.
+
 Recommended format:
 
 ```md
