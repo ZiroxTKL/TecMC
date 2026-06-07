@@ -1,0 +1,44 @@
+﻿# Minecraft world/data
+world/
+world_*/
+DIM*/
+backups/
+logs/
+crash-reports/
+debug/
+spark/
+
+# Forge/Minecraft generated files
+libraries/
+versions/
+*.jar
+*.zip
+*.rar
+*.7z
+
+# Mods - do not version jars
+mods/
+
+# Dynamic/sensitive server files
+eula.txt
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+usernamecache.json
+server-icon.png
+
+# Client/launcher files
+.minecraft/
+resourcepacks/
+shaderpacks/
+options.txt
+servers.dat
+
+# Temp/editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
