@@ -36,6 +36,18 @@ Every mod must answer at least one of these:
 - Blue Skies is planned as a future expansion.
 - Config changes must be tested and documented.
 
+## Project documentation
+
+Main documentation files:
+
+- `docs/changelog.md`: project phase history and decision log.
+- `docs/modlist.md`: current mod stack organized by category and side.
+- `docs/config_changes.md`: important server configuration decisions.
+- `docs/backup_policy.md`: backup rules and restoration validation.
+- `docs/performance_tests.md`: TPS/MSPT testing plan and performance evidence.
+- `docs/progression_plan.md`: progression, quests and world unlock planning.
+- `docs/npc_trades.md`: NPC trade planning and balancing.
+
 ## Workflow
 
 - CurseForge: mod management and dependencies.
