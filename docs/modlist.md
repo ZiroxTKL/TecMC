@@ -16,3 +16,18 @@
 | Canary | Server / Client | General game logic optimization | Added |
 | AI Improvements | Server / Client | Reduces AI/pathfinding cost for mobs | Added |
 | Mobtimizations | Server / Client | Optimizes mob behavior and entity performance | Added |
+
+## Phase 1C - Additional Server Performance
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| FastSuite | Server / Client | Recipe/crafting performance optimization | Added |
+| Clumps | Server / Client | Combines XP orbs to reduce entity lag | Added |
+
+## Phase 1D - Client FPS Optimization
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Embeddium | Client | Rendering/FPS optimization | Added |
+| ImmediatelyFast | Client | UI/rendering optimization | Added |
+| Entity Culling | Client | Avoids rendering hidden entities/block entities | Added |
