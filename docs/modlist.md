@@ -37,3 +37,14 @@
 | Mod | Side | Purpose | Status |
 |---|---|---|---|
 | Chloride | Client | Additional Embeddium/Sodium visual, quality and performance options | Added |
+
+## Phase 2A - Client QoL Base
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| JEI | Client | Recipe and item lookup | Added |
+| Jade | Client | Block/entity tooltip information | Added |
+| AppleSkin | Client | Food and saturation information | Added |
+| Controlling | Client | Keybind search and management | Added |
+| Mouse Tweaks | Client | Inventory mouse interaction improvements | Added |
+| Inventory Profiles Next | Client | Inventory sorting and management | Added |
