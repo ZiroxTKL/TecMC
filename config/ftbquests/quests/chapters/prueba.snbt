@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prueba"
+	group: ""
+	id: "08CAD5204744C111"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4003C7E314923D65"
+		rewards: [{
+			id: "716F03D26553F2C5"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		tasks: [{
+			id: "25BE3C2E552C5419"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		title: "Hola mundo"
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "Prueba"
+}
