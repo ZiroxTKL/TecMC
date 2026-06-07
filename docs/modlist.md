@@ -107,3 +107,9 @@
 |---|---|---|---|
 | YUNG's Better Nether Fortresses | Server / Client | Improves Nether fortresses for better Nether exploration and progression | Added |
 | YUNG's Better End Island | Server / Client | Improves the main End island and dragon fight environment | Added |
+
+## Phase 5E - Large Dungeon Structures
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| When Dungeons Arise | Server / Client | Adds large dungeon structures for exploration, danger and adventure progression | Added |

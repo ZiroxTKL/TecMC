@@ -203,6 +203,21 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved with observation. Stable after generation, but dimension entry can create temporary spikes.
 
+#### 2026-06-07 - Phase 5E When Dungeons Arise
+
+- Mods tested: When Dungeons Arise.
+- Situation: Phase 5 test world with large dungeon/structure generation.
+- Short-term TPS stayed stable at 20.0.
+- 1-minute TPS stayed around 19.25 during recent world/structure generation.
+- 5-minute TPS stayed around 19.41.
+- Last 10-second sample: 9.5 ms median, 20.1 ms P95 and 55.8 ms max.
+- 1-minute sample: 11.2 ms median, 43.2 ms P95 and 153.0 ms max.
+- Server process CPU stayed around 11-21%.
+- No crash was observed.
+- The mod is heavier than previous structure blocks but remains stable in the initial test.
+- RAM usage was not measured.
+- Decision: Approved with observation. Keep an eye on loot balance and large structure density.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.
