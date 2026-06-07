@@ -145,6 +145,22 @@ Do not add many worldgen mods at the same time.
 - RAM usage was not measured.
 - Decision: Approved as Phase 4B baseline before Phase 5 testing.
 
+#### 2026-06-07 - Phase 5A YUNG base initial test
+
+- Mods tested: YUNG's API, YUNG's Better Dungeons, YUNG's Better Mineshafts and YUNG's Better Strongholds.
+- Situation: New Phase 5 test world after startup.
+- TPS recovered to 20.0 in the last short-term readings.
+- 1-minute TPS stayed around 19.24-19.25 due to recent startup/worldgen load.
+- 5-minute TPS stayed around 19.71.
+- Median MSPT was around 7.5 ms in the 1-minute window.
+- P95 MSPT reached around 21.5 ms after stabilization.
+- Peak MSPT reached 248.8 ms once.
+- The peak is considered punctual, likely caused by startup, initial world generation or structure generation.
+- Last 10-second sample normalized to 7.0 ms median, 8.2 ms P95 and 10.3 ms max.
+- Server process CPU dropped to around 4% in the final reading.
+- RAM usage was not measured.
+- Decision: Approved as initial Phase 5A YUNG base test.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.
