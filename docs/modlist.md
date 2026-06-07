@@ -48,3 +48,12 @@
 | Controlling | Client | Keybind search and management | Added |
 | Mouse Tweaks | Client | Inventory mouse interaction improvements | Added |
 | Inventory Profiles Next | Client | Inventory sorting and management | Added |
+
+## Phase 2B - Multiplayer and Progression QoL
+
+| Mod | Side | Purpose | Status |
+|---|---|---|---|
+| Sophisticated Backpacks | Server / Client | Upgradable backpacks for exploration and progression | Added |
+| Sophisticated Core | Server / Client | Dependency required by Sophisticated Backpacks | Added |
+| Corail Tombstone | Server / Client | Grave system, death recovery and fantasy survival mechanics | Added |
+| SecurityCraft | Server / Client | Base protection, reinforced blocks and security tools | Added |
