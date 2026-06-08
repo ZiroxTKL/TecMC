@@ -233,6 +233,21 @@ Do not add many worldgen mods at the same time.
 - Server process CPU stayed low.
 - Decision: Approved with client-side warning. Needs one more clean client restart/join test before final approval.
 
+#### 2026-06-08 - Phase 6A.1 Client QoL, visual and light lore
+
+- Added client-side QoL, visual and performance mods.
+- Added SkinRestorer server-side.
+- Added Music Box and Mystical Oak Tree as light lore/content mods.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- No crash or mod mismatch observed.
+- TPS stayed stable: 20.0 / 20.0 / 20.0 / 19.92 / 19.97.
+- Tick durations: 8.6 ms median, 33.1 ms P95 and 179.2 ms max in the 1-minute sample.
+- Server process CPU stayed moderate, around 4–14%.
+- System CPU was high, likely due to client/system load rather than server load.
+- Decision: Approved with observation.
+
 ## Notes
 
 Performance tests should be updated after each important mod change.

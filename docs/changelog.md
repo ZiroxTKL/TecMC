@@ -86,6 +86,18 @@ Each new phase should document:
 - Soulful Nether.
 - Quark and Supplementaries.
 
+#### 2026-06-08 - Phase 6A.2 Server QoL
+
+- Added Waystones, Nature's Compass, XP Tome, ElevatorID, Void Totem, Iron Chests, Goblin Traders, Polymorph and Crafting Tweaks.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- QoL features tested correctly.
+- TPS stayed stable: 19.97 / 19.98 / 20.0 / 19.75 / 19.92.
+- Tick durations: 6.8 ms median, 14.6 ms P95 and 56.4 ms max in the 1-minute sample.
+- Server process CPU stayed low, around 3–9%.
+- Decision: Approved.
+
 ### Fixed
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
