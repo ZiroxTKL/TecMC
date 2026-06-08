@@ -128,3 +128,5 @@
 | Zeta | Server / Client | Library required by Quark | Added - Warning |
 | Supplementaries | Server / Client | Vanilla+ decoration and functional ambient blocks | Added - Warning |
 | Moonlight Library | Server / Client | Library required by Supplementaries | Added - Warning |
+
+| Create Deco | Server / Client | Decorative industrial blocks for Create-themed builds | Removed |

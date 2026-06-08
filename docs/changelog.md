@@ -90,6 +90,21 @@ Each new phase should document:
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
 
+## Version 1.2.1 - Remove Create Deco
+
+### Removed
+
+- Create Deco.
+
+### Reason
+
+- Removed because it added limited value to TecMC progression and decoration.
+- Reduces Create addon complexity after isolated client-side Create registry crashes.
+
+### Decision
+
+Approved.
+
 ### Tested
 
 - Server starts correctly.
