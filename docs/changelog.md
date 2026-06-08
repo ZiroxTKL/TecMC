@@ -138,6 +138,48 @@ Each new phase should document:
 - Server process CPU stayed low, around 4–11%.
 - Decision: Approved with observation. Watch dragon spawn rate, terrain destruction and structure density.
 
+#### 2026-06-08 - Phase 6E End Expansion and Xaero's World Map
+
+- Added Nullscape, The Outer End and Xaero's World Map.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- End generation and map functionality were tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS stayed around 19.63 and 15-minute TPS around 19.08 during testing.
+- Last 10-second sample was excellent: 0.8 ms median, 1.2 ms P95 and 97.1 ms max.
+- 1-minute sample showed 5.5 ms median, 35.9 ms P95 and 228.9 ms max.
+- Server process CPU stayed moderate, around 1–17%.
+- Decision: Approved with observation. End generation caused punctual spikes, but the server recovered correctly.
+
+#### 2026-06-08 - Phase 6F RPG Combat, Magic and Loot
+
+- Added Better Combat, Combat Roll, Simply Swords, Spartan Shields, Iron's Spells 'n Spellbooks, Relics, Artifacts, Curios and Curious Lanterns.
+- Added Cloth Config to the server after dependency error.
+- Client launched correctly.
+- Server started correctly after dependency fix.
+- Player joined successfully.
+- Combat, roll, weapons, spells and accessory systems were tested correctly.
+- TPS stayed stable: 20.0 / 20.0 / 20.0 / 20.0 / 19.86.
+- Tick durations: 11.9 ms median, 33.8 ms P95 and 283.8 ms max in the 1-minute sample.
+- Server process CPU stayed moderate, around 3–13%.
+- Decision: Approved with observation. High tick spike was punctual and the server recovered to 20 TPS.
+
+#### 2026-06-08 - Phase 6G Bosses, Dark Lore and Danger
+
+- Added L_Ender's Cataclysm, Mowzie's Mobs, Bosses of Mass Destruction, The Graveyard, Wither Reincarnated, Born in Chaos and Aquamirae.
+- Required APIs and dependencies were added correctly.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Boss and mob content loaded correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS stayed around 19.4 and 15-minute TPS around 19.81 during testing.
+- Last 10-second sample was stable: 3.3 ms median, 5.9 ms P95 and 13.7 ms max.
+- 1-minute sample showed 12.0 ms median, 38.1 ms P95 and 288.2 ms max.
+- Server process CPU stayed moderate, around 3-21%.
+- Decision: Approved with observation. Boss/entity loading caused punctual spikes, but the server recovered correctly.
+
 ### Fixed
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
