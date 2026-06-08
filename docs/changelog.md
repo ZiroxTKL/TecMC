@@ -180,6 +180,64 @@ Each new phase should document:
 - Server process CPU stayed moderate, around 3-21%.
 - Decision: Approved with observation. Boss/entity loading caused punctual spikes, but the server recovered correctly.
 
+#### 2026-06-08 - Phase 7A End Remastered
+
+- Added End Remastered.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- End progression content was tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS dropped to around 18.49 during testing.
+- 15-minute TPS stayed around 19.38.
+- Last 10-second sample was stable: 1.1 ms median, 7.5 ms P95 and 48.1 ms max.
+- 1-minute sample was healthy: 6.7 ms median, 9.2 ms P95 and 75.3 ms max.
+- Server process CPU stayed moderate, around 4-21%.
+- Decision: Approved with observation. The server recovered correctly after testing/load.
+
+#### 2026-06-08 - Phase 7B Twilight Forest and Aether
+
+- Added The Twilight Forest and The Aether.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Dimension loading was tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS stayed around 19.47 and 15-minute TPS around 19.72.
+- Last 10-second sample was excellent: 1.1 ms median, 1.6 ms P95 and 23.0 ms max.
+- 1-minute sample stayed healthy: 7.8 ms median, 24.2 ms P95 and 83.6 ms max.
+- Server process CPU stayed low, around 1-9%.
+- Decision: Approved.
+
+#### 2026-06-08 - Phase 7C Advanced Netherite
+
+- Added Advanced Netherite.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Advanced Netherite gear/progression content was tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS stayed around 19.43 and 15-minute TPS around 19.82.
+- Last 10-second sample was stable: 1.4 ms median, 9.0 ms P95 and 23.0 ms max.
+- 1-minute sample stayed healthy: 11.4 ms median, 14.5 ms P95 and 205.0 ms max.
+- Server process CPU stayed low, around 3-11%.
+- Decision: Approved.
+
+#### 2026-06-08 - Phase 7D Villages, Spelunking and Fossils
+
+- Added ChoiceTheorem's Overhauled Village, Lithostitched, Spelunker's Charm II, More Hitboxes and Fossils and Archeology Revival.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- CTOV village generation was tested and a village generated correctly.
+- Lithostitched showed warnings for missing CTOV optional template pool references.
+- No crash was observed.
+- TPS recovered to around 20.0 in short-term readings.
+- 5-minute TPS dropped to around 17.4 and 15-minute TPS to around 18.38 during a heavy test involving village loading and a dragon attack.
+- 1-minute tick durations reached 27.5 ms median, 59.0 ms P95 and 401.6 ms max during the stress situation.
+- Decision: Approved with observation. Village generation worked, but CTOV warnings and heavy entity/worldgen situations should be monitored.
+
+
 ### Fixed
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
