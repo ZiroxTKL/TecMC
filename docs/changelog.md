@@ -98,6 +98,32 @@ Each new phase should document:
 - Server process CPU stayed low, around 3–9%.
 - Decision: Approved.
 
+#### 2026-06-08 - Phase 6B Food, Vanilla+ and Survival
+
+- Added Farmer's Delight, Nether's Delight, End's Delight, Aquaculture 2, Friends&Foes, More Villagers, Creeper Overhaul and Carry On.
+- Required dependencies were added correctly.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Items, mobs, food features and Carry On were tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute TPS dropped to 18.85 during the test, likely due to loading, testing and new content initialization.
+- Tick durations stayed acceptable: 7.1 ms median, 11.6 ms P95 and 303.4 ms max in the 1-minute sample.
+- Server process CPU stayed low, around 4–9%.
+- Decision: Approved with observation.
+
+#### 2026-06-08 - Phase 6C Alex ecosystem
+
+- Added Alex's Mobs, Alex's Caves, Alex's Delight and required dependencies.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Alex's Mobs and Alex's Caves content were tested correctly.
+- TPS stayed stable: 19.99 / 19.99 / 20.0 / 19.82 / 19.63.
+- Tick durations were excellent: 1.2 ms median, 2.4 ms P95 and 110.5 ms max in the 1-minute sample.
+- Server process CPU stayed low in short-term readings.
+- Decision: Approved.
+
 ### Fixed
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
