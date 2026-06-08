@@ -237,6 +237,34 @@ Each new phase should document:
 - 1-minute tick durations reached 27.5 ms median, 59.0 ms P95 and 401.6 ms max during the stress situation.
 - Decision: Approved with observation. Village generation worked, but CTOV warnings and heavy entity/worldgen situations should be monitored.
 
+#### 2026-06-08 - Phase 7F.1 YUNG's Cave Biomes
+
+- Added YUNG's Cave Biomes.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Cave biome generation was tested correctly.
+- Short-term TPS stayed stable around 20.0.
+- 5-minute TPS stayed around 19.5 and 15-minute TPS around 19.83.
+- Last 10-second sample was excellent: 1.0 ms median, 4.1 ms P95 and 8.0 ms max.
+- 1-minute sample showed 10.9 ms median, 16.3 ms P95 and 243.0 ms max.
+- Server process CPU stayed low to moderate, around 0-17%.
+- Decision: Approved.
+
+#### 2026-06-08 - Phase 7F.3 Galosphere
+
+- Added Galosphere to expand underground cave content.
+- Server initially failed to start due to a broken Create compatibility recipe pointing to `galosphere:silver_ingot`, an item that does not exist in the installed Galosphere version.
+- Created a datapack fix: `tecmc_galosphere_fix`.
+- Redirected Create's broken Galosphere silver smelting/blasting recipes to `iceandfire:silver_ingot`, since Ice and Fire is the active silver source in the modpack.
+- Patched broken `galosphere:block_comparator` references to prevent datapack loading errors.
+- Server started successfully after applying the datapack fix.
+- Tested in-game successfully.
+- TPS remained stable: `20.0 / 20.0 / 20.0 / 20.0 / 19.84`.
+- Tick durations stayed healthy: `5.0 ms` median, `20.1 ms` P95 and `74.9 ms` max in the 1-minute sample.
+- Server process CPU stayed low to moderate, around `2-11%`.
+- Decision: **Approved with patch**.
+
 
 ### Fixed
 
