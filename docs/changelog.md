@@ -124,6 +124,20 @@ Each new phase should document:
 - Server process CPU stayed low in short-term readings.
 - Decision: Approved.
 
+#### 2026-06-08 - Phase 6D Ice and Fire
+
+- Added Ice and Fire: Dragons.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- Ice and Fire content was tested correctly.
+- Short-term TPS recovered to 20.0.
+- 5-minute and 15-minute TPS stayed around 19.59 during testing.
+- Last 10-second sample was stable: 3.4 ms median, 5.2 ms P95 and 13.3 ms max.
+- 1-minute sample showed 19.3 ms median, 37.6 ms P95 and 191.5 ms max.
+- Server process CPU stayed low, around 4–11%.
+- Decision: Approved with observation. Watch dragon spawn rate, terrain destruction and structure density.
+
 ### Fixed
 
 - Downgraded Create from 6.0.8 to 6.0.7 due to creative inventory crash.
