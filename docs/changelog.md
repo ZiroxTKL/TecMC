@@ -265,6 +265,54 @@ Each new phase should document:
 - Server process CPU stayed low to moderate, around `2-11%`.
 - Decision: **Approved with patch**.
 
+#### 2026-06-08 - Phase 7G.1 Dungeons and Taverns
+
+- Added Dungeons and Taverns to increase lootable exploration structures.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- New structure/worldgen exploration was tested.
+- TPS remained stable: `19.95 / 19.98 / 20.0 / 19.76 / 19.51`.
+- Tick durations stayed acceptable for structure generation: `17.9 ms` median, `25.2 ms` P95 and `115.3 ms` max in the 1-minute sample.
+- Server process CPU stayed moderate, around `4-21%`.
+- Decision: **Approved with minor worldgen/load observation**.
+
+#### 2026-06-08 - Phase 7G.2 Structory
+
+- Added Structory as a lightweight structure expansion for the Overworld.
+- Client launched correctly.
+- Server started correctly.
+- Player joined successfully.
+- New Overworld chunk exploration was tested.
+- TPS remained stable: `19.97 / 20.0 / 20.0 / 19.83 / 19.94`.
+- Tick durations stayed acceptable for structure/worldgen testing: `16.6 ms` median, `22.9 ms` P95 and `161.0 ms` max in the 1-minute sample.
+- Server process CPU stayed low to moderate, around `5-11%`.
+- Decision: **Approved**.
+
+#### 2026-06-08 - Phase 7G.3 / 7G.4 Moog's Nether and End Structures
+
+- Added Moog's Nether Structures and Moog's End Structures together.
+- Server started correctly.
+- Player joined successfully.
+- Nether and End exploration/generation were tested.
+- Initial testing caused worldgen spikes due to teleporting, dimension loading, End initialization, dragon fight setup and new chunk generation.
+- Short-term TPS recovered to stable values after generation.
+- Final stabilization sample showed TPS at `19.99 / 20.0 / 20.0 / 19.99 / 18.52`.
+- The 5-minute TPS recovered to `19.99`, while the 15-minute value still reflected earlier generation spikes.
+- Tick durations in the final sample were acceptable: `13.1 ms` median, `40.9 ms` P95 and `365.8 ms` max in the 1-minute sample.
+- Server process CPU stayed moderate, around `5-17%`.
+- Decision: **Approved with worldgen/initial generation observation**.
+
+#### 2026-06-08 - Phase 7G.5 Stalwart Dungeons
+
+- Added Stalwart Dungeons as the final major dungeon/adventure structure mod for the worldgen stage.
+- Server started correctly.
+- Player joined successfully.
+- Dimension/worldgen testing was completed successfully.
+- TPS remained stable: `19.97 / 20.0 / 20.0 / 20.0 / 19.82`.
+- Tick durations stayed healthy: `10.9 ms` median, `15.5 ms` P95 and `169.4 ms` max in the 1-minute sample.
+- Server process CPU stayed low to moderate, around `1-16%`.
+- Decision: **Approved**.
 
 ### Fixed
 
