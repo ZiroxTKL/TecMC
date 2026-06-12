@@ -42,7 +42,6 @@ easy_npc/cache/
 
 # TecMC temporary analysis/extraction folders
 _scan*/
-_pack_analysis_current/
 _mod_downloads/
 .mixin.out/
 
