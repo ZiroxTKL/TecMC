@@ -40,6 +40,17 @@ servers.dat
 easy_npc/backup/
 easy_npc/cache/
 
+# TecMC temporary analysis/extraction folders
+_scan*/
+_pack_analysis_current/
+_mod_downloads/
+.mixin.out/
+
+# Generated runtime/cache folders
+modernfix/
+patchouli_books/
+moonlight-global-datapacks/
+
 # Temp/editor
 .DS_Store
 Thumbs.db
